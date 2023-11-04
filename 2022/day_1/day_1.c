@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <assert.h>
 
+#include "vector.h"
+
 
 int pow(int base, int exp) {
     if (exp == 0) {
@@ -28,8 +30,7 @@ int str_to_int(int* str) {
 }
 
 
-// void traverse_file(FILE* fp, void(*handler)(int)) {
-void traverse_file(FILE* fp) {
+void traverse_file_for_top_one(FILE* fp) {
     int c;
 
     int elf = 1;
@@ -48,7 +49,6 @@ void traverse_file(FILE* fp) {
             buffer[0] = i-1;
 
             if (buffer[0]) {
-                // (*handler)(str_to_int(buffer));
                 current += str_to_int(buffer);
 
                 i = 1;
@@ -69,23 +69,85 @@ void traverse_file(FILE* fp) {
     printf("elf %d has highest number of calories %d\n", winner, highest);
 }
 
+
 void print_hello(int num) {
     printf("elf says hello to %d\n", num);
 }
 
 
-int main() {
-    FILE *file = NULL;
 
-    if ((file = fopen("input.txt", "r")) == NULL) {
-        printf("can't open file\n");
-        return 1; 
+// int* traverse_file_for_top_three(FILE* fp) {
+//     int c;
+
+//     int current_elf = 1;
+//     int win_scores[3] = {0, 0, 0};
+//     int win_elfs[3] = {0, 0, 0};
+//     int current_score = 0;
+
+//     int buffer[10];
+//     int i = 1;
+
+
+//     while((c = getc(fp)) != EOF) {
+//         if ((48 <= c) && (c <= 57)) {
+//             buffer[i] = c;
+//             i += 1;
+//         } else {
+//             buffer[0] = i-1;
+
+//             if (buffer[0]) {
+//                 current_score += str_to_int(buffer);
+//                 i = 1;
+//             } else {
+//                 printf("elf %d has %d calories\n", elf, current);
+
+//                 int k;
+//                 for (k = 0; k < 3; k++) {
+//                     if (current_score > highest) {
+//                         highest = current;
+//                         winner = elf;
+//                     }
+
+
+//                 }
+//                 elf += 1;
+//                 current = 0;
+//             }
+//         }                
+//     }
+
+
+// }
+
+
+int main() {
+    vector* v = create_vector();
+
+    int j = 1;
+    for (; j <= 74; j++) {
+        push_to(v, j);
     }
 
-    // traverse_file(file, print_hello);
-    traverse_file(file);
+    for(j = 0; j < v->length; j++) {
+        int item = get_at(v, j);
+        printf("element %d at index %d\n", item, j);
+    }    
+    printf("vector has %d elements in total\n", v->length);
 
-    fclose(file);
+
+    free_vector(v);
+
+
+    // FILE *file = NULL;
+
+    // if ((file = fopen("input.txt", "r")) == NULL) {
+    //     printf("can't open file\n");
+    //     return 1; 
+    // }
+
+    // traverse_file_for_top_one(file);
+
+    // fclose(file);
      
 
     // int input[10];
