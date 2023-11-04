@@ -124,7 +124,7 @@ int main() {
     vector* v = create_vector();
 
     int j = 1;
-    for (; j <= 74; j++) {
+    for (; j <= 74000; j++) {
         push_to(v, j);
     }
 
