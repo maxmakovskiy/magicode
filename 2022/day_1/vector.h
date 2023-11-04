@@ -37,25 +37,22 @@ internal void free_batches(batch* b, int total) {
 
 
 internal void integrate_batch(vector* v, batch* b) {
-    batch* olds = *(v->batches);
-    int old_length = v->number_of_batches;
-    v->number_of_batches += 1;
-
     batch** news = malloc(sizeof(batch*));
-    *news = malloc((old_length+1)*sizeof(batch));
+    *news = malloc((v->number_of_batches+1)*sizeof(batch));
 
     int k;
-    for(k = 0; k < old_length; k++) {
-        news[k] = olds + k;
+    for(k = 0; k < v->number_of_batches; k++) {
+        news[k] = v->batches[k];
     }
 
     news[k] = b;
 
     batch** to_del = v->batches;
     v->batches = news;
+    v->number_of_batches += 1;
 
     // free old batches
-    // free(to_del);
+    free(to_del);
 }
 
 vector* create_vector() {
@@ -64,9 +61,10 @@ vector* create_vector() {
     v->number_of_batches = 1;
 
     v->batches = malloc(sizeof(batch*));
-    *(v->batches) = create_batch();
+    v->batches[0] = create_batch();
     
-    v->current_batch = *(v->batches);
+    v->current_batch = v->batches[0];
+    return v;
 }
 
 
