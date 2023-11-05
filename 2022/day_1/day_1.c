@@ -105,8 +105,36 @@ void traverse_file(FILE* fp, vector* v) {
             }
         }                
     }
+}
 
 
+void find_max3(vector* v) {
+    vector* v2 = create_vector();
+    vector* v3 = create_vector();
+
+
+    int m1 = find_max(v);
+    for (int i = 0; i < v->length; i++) {
+        int c = get_at(v,i);
+        if (m1 != c) {
+            push_to(v2, c);
+        }
+    }
+
+    int m2 = find_max(v2);
+    for (int i = 0; i < v2->length; i++) {
+        int c = get_at(v2,i);
+        if (m2 != c) {
+            push_to(v3, c);
+        }
+    }
+
+    int m3 = find_max(v3);
+
+    free_vector(v2);
+    free_vector(v3);
+
+    printf("How many Calories are those Elves carrying in total? %d\n", m1+m2+m3);
 }
 
 
@@ -123,13 +151,7 @@ int main() {
 
     traverse_file(file, v);
 
-
-    // do work here
-
-
-
-
-
+    find_max3(v);
 
     free_vector(v);
 

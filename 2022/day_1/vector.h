@@ -103,4 +103,19 @@ int get_at(vector* v, int index) {
 }
 
 
+int find_max(vector* v) {
+    int i = 1;
+    int result = get_at(v, 0);
+
+    for(; i < v->length; i++) {
+        int current = get_at(v, i);
+        if (result < current) {
+            result = current;
+        }
+    }
+
+    return result;
+}
+
+
 #endif
