@@ -76,79 +76,83 @@ void print_hello(int num) {
 
 
 
-// int* traverse_file_for_top_three(FILE* fp) {
-//     int c;
+void traverse_file(FILE* fp, vector* v) {
+    int c;
 
-//     int current_elf = 1;
-//     int win_scores[3] = {0, 0, 0};
-//     int win_elfs[3] = {0, 0, 0};
-//     int current_score = 0;
+    int buffer[10];
+    int i = 1;
 
-//     int buffer[10];
-//     int i = 1;
+    int elf = 0;
+    int current = 0;
 
+    while((c = getc(fp)) != EOF) {
+        if ((48 <= c) && (c <= 57)) {
+            buffer[i] = c;
+            i += 1;
+        } else {
+            buffer[0] = i-1;
 
-//     while((c = getc(fp)) != EOF) {
-//         if ((48 <= c) && (c <= 57)) {
-//             buffer[i] = c;
-//             i += 1;
-//         } else {
-//             buffer[0] = i-1;
+            if (buffer[0]) {
+                current += str_to_int(buffer);
+                i = 1;
+            } else {
+                printf("elf %d has %d calories\n", elf, current);
 
-//             if (buffer[0]) {
-//                 current_score += str_to_int(buffer);
-//                 i = 1;
-//             } else {
-//                 printf("elf %d has %d calories\n", elf, current);
+                push_to(v, current);
 
-//                 int k;
-//                 for (k = 0; k < 3; k++) {
-//                     if (current_score > highest) {
-//                         highest = current;
-//                         winner = elf;
-//                     }
+                elf += 1; 
+                current = 0;
+            }
+        }                
+    }
 
 
-//                 }
-//                 elf += 1;
-//                 current = 0;
-//             }
-//         }                
-//     }
-
-
-// }
+}
 
 
 int main() {
-    vector* v = create_vector();
 
-    int j = 1;
-    for (; j <= 74000; j++) {
-        push_to(v, j);
+    FILE *file = NULL;
+
+    if ((file = fopen("input.txt", "r")) == NULL) {
+        printf("can't open file\n");
+        return 1; 
     }
 
-    for(j = 0; j < v->length; j++) {
-        int item = get_at(v, j);
-        printf("element %d at index %d\n", item, j);
-    }    
-    printf("vector has %d elements in total\n", v->length);
+    vector* v = create_vector();
+
+    traverse_file(file, v);
+
+
+    // do work here
+
+
+
+
 
 
     free_vector(v);
 
+    fclose(file);
+     
 
-    // FILE *file = NULL;
 
-    // if ((file = fopen("input.txt", "r")) == NULL) {
-    //     printf("can't open file\n");
-    //     return 1; 
+
+    // vector* v = create_vector();
+
+    // int j = 1;
+    // for (; j <= 740000; j++) {
+    //     push_to(v, j);
     // }
 
-    // traverse_file_for_top_one(file);
+    // // for(j = 0; j < v->length; j++) {
+    // //     int item = get_at(v, j);
+    // //     printf("element %d at index %d\n", item, j);
+    // // }    
+    // printf("vector has %d elements in total\n", v->length);
 
-    // fclose(file);
-     
+    // free_vector(v);
+
 
     // int input[10];
     // input[0] = 6;

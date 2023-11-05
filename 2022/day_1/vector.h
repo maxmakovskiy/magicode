@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include "no_implemented.h"
 
+
 typedef struct {
     int* content;
     int length;
@@ -27,6 +28,7 @@ internal batch* create_batch() {
     return b;
 }
 
+
 internal void free_batches(batch** batches, int total) {
     int i;
     for (i = 0; i < total; i++) {
@@ -40,7 +42,6 @@ internal void free_batches(batch** batches, int total) {
 internal void integrate_batch(vector* v, batch* b) {
     batch** news = malloc((v->number_of_batches + 1) * sizeof(batch*));
 
-
     int k;
     for(k = 0; k < v->number_of_batches; k++) {
         news[k] = v->batches[k];
@@ -48,10 +49,11 @@ internal void integrate_batch(vector* v, batch* b) {
 
     news[k] = b;
 
-    free(v->batches); // Free the old batches array.
+    free(v->batches);
     v->batches = news;
     v->number_of_batches += 1;
 }
+
 
 vector* create_vector() {
     vector* v = malloc(sizeof(vector));
@@ -72,6 +74,7 @@ internal void push_item_to_batch(batch* b, int item) {
     b->length += 1;
 }
 
+
 void push_to(vector* v, int value) {
     if (v->current_batch->length < _BATCH_CAPACITY) {
         push_item_to_batch(v->current_batch, value);
@@ -84,11 +87,13 @@ void push_to(vector* v, int value) {
     v->length += 1;
 }
 
+
 void free_vector(vector* v) {
     free_batches(v->batches, v->number_of_batches);
     v->current_batch = NULL;
     free(v);
 }
+
 
 int get_at(vector* v, int index) {
     int batch_index = index / _BATCH_CAPACITY;
