@@ -1,0 +1,497 @@
+Wjmsdn... | bQllTt... | GgVgQr...
+> common char Q with score 43 has been found in:
+	 Wjmsdnddnm[93m[1mQ[0mPZPPJPL
+	 b[93m[1mQ[0mllTtpBlgwtrbbCwfZcfSFPSfLCSF
+	 GgVg[93m[1mQ[0mrlpphBGrlVGgTtsRHRWVRMzRdVsqdnDnV
+MMTcbp... | lPqCCq... | lrDdll...
+> common char Q with score 43 has been found in:
+	 MMTcbpnfNG[93m[1mQ[0mbMjgsRwSzRptRzz
+	 lPqCCq[93m[1mQ[0mdQqQmCPRzRVSwtzgqqwqR
+	 lrDdllPdBWdDF[93m[1mQ[0mFnMbDNDn
+FldWTl... | qVCGQR... | frjGfM...
+> common char v with score 22 has been found in:
+	 FldWTldlpBSLz[93m[1mv[0mpnpSTpWbDhbHNDPHhJcNHNDwbH
+	 qVCGQRGrrgMQrJhPNchg[93m[1mv[0mgJhNc
+	 frjGfMrGQMjsRrRQj[93m[1mv[0mQGmrQQszTTpSLBznlzBlLLSBLLSZTn
+TPZZZM... | wrfwDD... | qfHwHC...
+> common char m with score 13 has been found in:
+	 TPZZZMTTbNTZNtTlTbjPVRVGzpGQLLzdGg[93m[1mm[0mslhzSzgLzQh
+	 wrfwDDvcnFvCfrrSQs[93m[1mm[0mzGGQQdndsGg
+	 qfHwHCqCqCrFJrcBHCCJR[93m[1mm[0mWTRTmVMttjRjRHZMNV
+vpbqnz... | NltQcC... | lMtlGM...
+> common char P with score 42 has been found in:
+	 vpbqnzb[93m[1mP[0mmWLFjFLBnjZg
+	 NltQcCClQlcGQGtMTCRdGTGBFZRLZjFFZZhB[93m[1mP[0mLrFHZFjHf
+	 lMtlGMwMsCCNlTwtsC[93m[1mP[0mzzmPmmVpmpWqVWsWz
+VmWVSc... | RZZPRN... | RNNmPv...
+> common char m with score 13 has been found in:
+	 V[93m[1mm[0mWVSchSrScGtwlVtBnwBVFF
+	 RZZPRNpPCLZvZPZNCLbQPZNBFttt[93m[1mm[0mwBMTMTtttCwtgwBgl
+	 RNN[93m[1mm[0mPvbQQjPRQQNNHpNbhsfzWJqqSJcsGHhHcfhq
+dtJvcp... | qHVslP... | qPVPMh...
+> common char z with score 26 has been found in:
+	 dtJvcpccWvLD[93m[1mz[0mtRCRRCrCC
+	 qHVslP[93m[1mz[0mPqHqzmPhTzmDFggjrHrSCNFFFSjgR
+	 qPVPMhs[93m[1mz[0mZPVhwBZcdpvZJncbcJ
+HBNLlB... | ddsGcg... | VdgscZ...
+> common char T with score 46 has been found in:
+	 HBNLlBDtvLDHhHLvfwlFjqfQ[93m[1mT[0mFqqWfST
+	 ddsGcggJncZVRdGCdZdcWWzSFrjzQFrf[93m[1mT[0mzqfCjFw
+	 VdgscZmbZNBvbDH[93m[1mT[0mbL
+GtSZQq... | DvcTNT... | cclNlw...
+> common char R with score 44 has been found in:
+	 GtSZQqpHpHfGHzzqHzHfSbPbnJCr[93m[1mR[0mCnJChmjnJnbSh
+	 DvcTNTDWlNDWdlbnnbjm[93m[1mR[0mhRrCCRd
+	 cclNlwB[93m[1mR[0mvvTNccRlBNRspVLLZzVzVZQqfqqLpzpw
+dBSfHd... | rbTTrr... | vlhjTh...
+> common char v with score 22 has been found in:
+	 dBSfHdZ[93m[1mv[0mMQMdNVpWRmWmLCmmtB
+	 rbTTrrjDcqcrrqrjjJGGclltPCWDm[93m[1mv[0mtpmpPpvRDsCspsLC
+	 [93m[1mv[0mlhjThlqcjrnTvThndddHZngMnfwNQFNFM
+tHqfsz... | MdFMcl... | mcDJdD...
+> common char m with score 13 has been found in:
+	 tHqfszrgLsvgqtHrHtwVCGBRRjGSCwsCs[93m[1mm[0mmV
+	 MdFMclP[93m[1mm[0mcDQFDlDdlZPmbVpCbFpCbBSCCRGCFpbV
+	 [93m[1mm[0mcDJdDQMcDTZQhhNNPldhhDtvHLgqtzgLvzTzWHWnWfvvz
+sVdGlT... | mPmjFh... | jhPhjw...
+> common char l with score 12 has been found in:
+	 sVdG[93m[1ml[0mTMMVTGCdsTMHHWWnNBzNWpNWCpW
+	 mPmjFh[93m[1ml[0mwmwmWrpSrSWHB
+	 jhPhjwgthtFFjRwjZgjGdJcdf[93m[1ml[0mfqMsZLLsdZdc
+CBRsTs... | rJdbrJ... | FpFbbp...
+> common char C with score 29 has been found in:
+	 [93m[1mC[0mBRsTsBBzLCfLqtqBRPNDQglSttlcgDlgGGt
+	 rJdbrJjrdbVJZdVZ[93m[1mC[0mGrNNcgDQlcQrggl
+	 FpFbbppjF[93m[1mC[0mdwmTvsvfzmTnTBfq
+cqhcWq... | brJHBb... | dHFPBP...
+> common char z with score 26 has been found in:
+	 cqhcWqqCNjGWqcqhGGZ[93m[1mz[0mngftmptLZLGZTn
+	 brJHBbPVHPvSsdHr[93m[1mz[0mQLzZgpfVzpfQtnL
+	 dHFPBPrBJFR[93m[1mz[0mcWNFhWwN
+QTBTfQ... | FgFWNq... | CCvHzS...
+> common char W with score 49 has been found in:
+	 QTBTfQTZsj[93m[1mW[0mDJBJd
+	 FgF[93m[1mW[0mNqWGDPqlPllp
+	 CCvHzS[93m[1mW[0mFrrtvNvNNHLGQQfbVRRfHZcZcVTTTnZ
+ZCCHHC... | nljDtc... | qDsqsc...
+> common char h with score 8 has been found in:
+	 ZCCHHCVRZzBZQT[93m[1mh[0mM
+	 nljDtcqn[93m[1mh[0mcfbwjwltfLQMLLQQppJBMLQJL
+	 qDsqsc[93m[1mh[0msqblDqjcqtRmNVVdNsddNNPmFgV
+QQRnqG... | wCNPNw... | ZNPzNW...
+> common char q with score 17 has been found in:
+	 QQRn[93m[1mq[0mGBSpQnMmSGmRQQFtdcbbtHHccjpTFcTfF
+	 wCNPNwNNWNgZHJHJFff[93m[1mq[0mCjbj
+	 ZNPzNWgNrsmzMV[93m[1mq[0msqs
+pVWlMB... | HZNgrH... | FrNfvS...
+> common char B with score 28 has been found in:
+	 pVWlM[93m[1mB[0mWjlWWqspWDjdjMpMDCPtmmdbhtQtQtbGPCzChchz
+	 HZNgrHSvHwnFZnvgNvnwLP[93m[1mB[0mGQHmCmtPmtBCGGCmQhG
+	 FrNfvSNSZLZJrJsVlRWWWqR[93m[1mB[0mVTff
+PQctSH... | wqWVwv... | nMnWgg...
+> common char R with score 44 has been found in:
+	 PQctSHQDPSQcbShpFzbmFddpmdm[93m[1mR[0m
+	 wqWVwvwNCJ[93m[1mR[0mhmdhwJw
+	 nMnWggVq[93m[1mR[0mVZqHBSBsQsQGDSZ
+qppwrg... | hhBHPQ... | MDWmWF...
+> common char s with score 19 has been found in:
+	 qppwrgZSL[93m[1ms[0mVbbfvZ
+	 hhBHPQQChCDcPc[93m[1ms[0mvvhbGbsllJTfv
+	 MDWmWFCPFWtgpRWjw[93m[1ms[0m
+bmRjdm... | wCNVns... | nWsNvq...
+> common char r with score 18 has been found in:
+	 bmRjdm[93m[1mr[0mJRjhJdJLZBjTFfHGTtQFTSQBS
+	 wCNVnsspwsnvNDwnsDwSBHtDHHQGTFQFtM[93m[1mr[0mQMS
+	 nWsNvqVgVcqdJ[93m[1mr[0mchrz
+MZlfql... | Cznczg... | SGDFzV...
+> common char S with score 45 has been found in:
+	 MZlfqlmblmMRWhWNsj[93m[1mS[0mQfh
+	 CznczgtDFnVtFBN[93m[1mS[0mRNttvhQsNh
+	 [93m[1mS[0mGDFzVrzVPrGHVnzCPVnlZlPwTbpTqlbqLMpbLlq
+lbbbGD... | FQfQnL... | cfgzzg...
+> common char L with score 38 has been found in:
+	 lbbbGDlw[93m[1mL[0mDLjvDvm
+	 FQfQn[93m[1mL[0mTWVcPChtjmjWSj
+	 cfgzzgfgfVdzTdfNwBpb[93m[1mL[0mbwdRbpZGrdw
+mwnWtb... | SjrZbh... | FlrMBS...
+> common char b with score 2 has been found in:
+	 mwnWt[93m[1mb[0mmdWdccwtgTmwnQfPqsqLQQJQQLsfQQ
+	 SjrZ[93m[1mb[0mhvBZzPHQqfGJfjG
+	 FlrMBSvMZZFBZhShMMdctWDtmFND[93m[1mb[0mDTmtmpt
+ndHWpr... | fvZmmV... | Wsmvms...
+> common char W with score 49 has been found in:
+	 ndH[93m[1mW[0mprpqFTnnpdNFlhljzlGTwDGzlhGz
+	 fvZmmVVfJctMZsgMgmcBmsZhwQlGDCzPPZ[93m[1mW[0mDGDjCllhC
+	 [93m[1mW[0msmvmsmRNnpRHdbS
+LgZSvh... | DJDfNl... | TmqTqD...
+> common char L with score 38 has been found in:
+	 [93m[1mL[0mgZSvhvcsWtcWnjrFrWjjjnPWW
+	 DJDfNlDNRFlpMlF[93m[1mL[0mFP
+	 TmqTqDHdmfwJRwfdQJ[93m[1mL[0mHzzSggHZZcGzhtZvcZhzG
+lbTpqh... | VwGfQG... | vQdfZF...
+> common char G with score 33 has been found in:
+	 lbTpqhhgSlgtlTqSDzzLPPPrL[93m[1mG[0mTTGnLm
+	 Vw[93m[1mG[0mfQGBGZWNnmDLPznLB
+	 vQdfZFWvFMMFwW[93m[1mG[0mGhpGqJbpFtgbS
+hSvCvF... | jdMgfT... | bjQLTT...
+> common char b with score 2 has been found in:
+	 hSvCvFRDwmzCCHrsz[93m[1mb[0m
+	 jdMgfT[93m[1mb[0mlgjJTLLLzqqGscmPmlqPzHc
+	 [93m[1mb[0mjQLTTbZMfJffZBBWdjBBQwVDntFpRvvDVvSnhppFv
+FFnFQn... | ZrZrRg... | DGrbbt...
+> common char m with score 13 has been found in:
+	 FFnFQndPqz[93m[1mm[0mjHscmJFwc
+	 ZrZrRgDphGGDZgRRBSBNMHHv[93m[1mm[0mwJJSNJHcv
+	 DGrbbthfWWWDgtfffttfpGPVqn[93m[1mm[0mblqPqCdQTlTPCzTll
+sHTsGr... | MqFcqc... | qnVlBb...
+> common char s with score 19 has been found in:
+	 [93m[1ms[0mHTsGrHpsftmddRRZfRv
+	 MqFcqcMQbMcVPCdFZCzZ[93m[1ms[0mRsFzL
+	 qnVlBbcJJbbMcbgQJMMbQlDWWwHWSWwpT[93m[1ms[0mGHGrpDWG
+qpmvVV... | rSSgww... | BFgFRg...
+> common char z with score 26 has been found in:
+	 qpmvVVcGvVVcVmDsCfqTHLLJ[93m[1mz[0mTjfZzLZ
+	 rSSgwwnSRRBrQrZ[93m[1mz[0mZHCQrZ
+	 BFgFRgdNnSBbbnhSMBSNFdsWVtpWm[93m[1mz[0msGtvpVPvGWVDDN
+fBBRfJ... | mvNcDc... | hpTsTs...
+> common char f with score 6 has been found in:
+	 [93m[1mf[0mBBRfJBzzMRGRzCBgWtbCWtbgHHHWdqt
+	 mvNcDcsDLLnnq[93m[1mf[0mbv
+	 hpTsTsTrDr[93m[1mf[0mpMSFFZjPFMrSP
+CNQGGD... | mppZVZ... | VtZJhR...
+> common char V with score 48 has been found in:
+	 CNQGGDMFWGnWWvvNMQFPvrgzBL[93m[1mV[0mBLszwgggLgw
+	 mppZ[93m[1mV[0mZtZRTbTTpRccVbgrSLzSPSzBrfbPBbSPw
+	 [93m[1mV[0mtZJhRJcTpJTHlhtHZCFFWFjNjGGnFhCqDqG
+cppcZG... | RStQJN... | LJDNNJ...
+> common char S with score 45 has been found in:
+	 cppcZGcGgGpdTg[93m[1mS[0mSnmpFMFrFzmwqwmrHwz
+	 R[93m[1mS[0mtQJNCNvfBQNjrqmrjFrBMzFB
+	 LJDNNJCDLcdLn[93m[1mS[0mVd
+gNrBNS... | Mbfqfp... | QPQLqZ...
+> common char S with score 45 has been found in:
+	 gNrBN[93m[1mS[0mrNNtSjBndzmzlVnm
+	 MbfqfpCLpCsLqsLF[93m[1mS[0mbQLfnMdcdRRcdzldlnljzncnJ
+	 QPQLqZqh[93m[1mS[0mqhvtvTTWrNg
+DtrrcG... | gggBqT... | ZglTmg...
+> common char d with score 4 has been found in:
+	 DtrrcGvtLnrrvLrfctfHztrfQpbwwphp[93m[1md[0mSbbPPPwFSFFRPwH
+	 gggBqTN[93m[1md[0mTNjqWBlNmCqCmNggQPhpPPPbhhQpSBpJwbSJSQFR
+	 ZglTmgWNgVZMZ[93m[1md[0msGMcvDcMdMnz
+bjtTFs... | WzDzwL... | fRCZzr...
+> common char b with score 2 has been found in:
+	 [93m[1mb[0mjtTFsPmmtpvVlQHlQJQnJjn
+	 WzDzwLCSLrrDNLdrSZRCwNzrlQlJMnJQJJVh[93m[1mb[0mcMhgllwnJQh
+	 fRCZzrWRzzG[93m[1mb[0mGvTmBPTf
+lVlfJV... | HcwZMg... | cwCHtG...
+> common char G with score 33 has been found in:
+	 lVlfJVblPQbllflfLdJdv[93m[1mG[0mpjnFRFqJFnDqpJjnpF
+	 HcwZMgmwWCHHCSwcWCcgSCtCqqpFpp[93m[1mG[0mDqvDnRhgnnqFDpjFT
+	 cwCHt[93m[1mG[0mrCssWHCCWZZMbPPNBVbNfVbPllVszf
+DSpSnR... | zjjlQV... | lNQMlG...
+> common char Z with score 52 has been found in:
+	 DSpSnRwr[93m[1mZ[0mDPWsJdZ
+	 zjjlQVjlN[93m[1mZ[0mmCVCfhCfgFFfFFFqWJbgbFWHJH
+	 lNQMlGjQB[93m[1mZ[0mjCmhNMCChGzlVNrpTnccLLwcRwTSppSpprLRcB
+vLfvcg... | ZWSQVG... | SjVSrW...
+> common char c with score 3 has been found in:
+	 vLfv[93m[1mc[0mgglbfLfgqdgNpPtzqDmPzmJTTztPCHT
+	 ZWSQVGwQ[93m[1mc[0mWjSshGwVcnSzDJZtPPTzmzzJHCTzDtJ
+	 SjVSrWVhQVQhwrLM[93m[1mc[0mrFbfplcflvv
+NgtfSR... | LLJnvw... | wHTGZm...
+> common char n with score 14 has been found in:
+	 NgtfSRP[93m[1mn[0mnRrSlgsPhnShDWQlMWpVBMMMpCWVBpCQBB
+	 LLJ[93m[1mn[0mvwJvZHZbHTbVCQBppCFJCWWQBz
+	 wHTGZmZvdvLvjLwZdq[93m[1mn[0mgNgsGtrDPSDhtNfDf
+DwrDRl... | PZdMZz... | WHWCFH...
+> common char Q with score 43 has been found in:
+	 DwrDRlrwmbSbRgwsSbRwGJv[93m[1mQ[0mGqjJqGNTJTNGTSGn
+	 PZdMZzC[93m[1mQ[0mFBZWWFQvJZvcNcjqNjjZJG
+	 WHWCFHBBdzzMWhPFtFdMzlRsVbVmDrRVVrt[93m[1mQ[0mplwVwD
+bpWbJM... | qZdgVV... | RVRlgc...
+> common char h with score 8 has been found in:
+	 bpWbJMWpJbprfNMrBfJfprW[93m[1mh[0mPnGtnHnLHjPPjLvsWnHGvGvj
+	 qZdgVVgDQ[93m[1mh[0mQZlwcqgDcchldjjmLtntmntPQsmLnLPjssnL
+	 RVRlgcSSdglZczdqbTCr[93m[1mh[0mBrBpNBSBSbF
+SgbGvf... | TWlssd... | dssdCW...
+> common char g with score 7 has been found in:
+	 S[93m[1mg[0mbGvfbnGgmnNnnzqMqqHHRzbZBzZR
+	 TWlssdFwWdtswWPtTtWltwdVHlZZzRHZBZRzrprqHMpq[93m[1mg[0mZrq
+	 dssdCWTFwSv[93m[1mg[0mmDjDCG
+pqsDnN... | lVGtRt... | GPbTbP...
+> common char n with score 14 has been found in:
+	 pqsD[93m[1mn[0mNzzZsdZSnDSpwjBCBWvgjvWjNFWQgWC
+	 lVGtRtLMGGfbTGTtTbQCQ[93m[1mn[0mBQBnBFgFQcgjfc
+	 GPbTbPt[93m[1mn[0mPttmLTGRRbtmdwSDwpwwhZqmdpzDhDJd
+MdccRQ... | TDpSsT... | tfVNrw...
+> common char Q with score 43 has been found in:
+	 MdccR[93m[1mQ[0mMJvHdgZggvhjjMgHcHlWWqFFWmGqFbJWzzFLWlLmPm
+	 TDpSsTrtblSz[93m[1mQ[0mlGQ
+	 tfVNrwTwtswTssMRjMM[93m[1mQ[0mQddNMRCd
+GqGqGp... | rHrSbr... | rccbtt...
+> common char M with score 39 has been found in:
+	 GqGqGpFqqgDGFRqDwwqqmzpGTLPvVW[93m[1mM[0mPVCPLJLRJJMLTlCWV
+	 rHrSbrsbQcbtdNHHHfdPlvWBLLWlv[93m[1mM[0mTVlVLCJf
+	 rccbtthHSHsNHrrcttwqpnDFn[93m[1mM[0mmpnzFnFhnF
+vQQQbR... | tnsZwg... | CrVnfn...
+> common char b with score 2 has been found in:
+	 vQQQ[93m[1mb[0mRvlLjNNLLBzNllNHNBqGqhMWhGGhTqmPmqhWTFhRm
+	 tnsZwgSnCDrZSCDsfTMSGpPWmPSWmGm[93m[1mb[0mFq
+	 CrVnfnCCtrCgfrffcrstDnJNlvJdNvzdBcHdLBJHv[93m[1mb[0mBv
+nmQsMq... | vRgRRt... | GhsRBz...
+> common char s with score 19 has been found in:
+	 nmQ[93m[1ms[0mMqTnLlmmpQZmTZcdHwCFSpHJSSWHSJVSWSHH
+	 vRgRRtfPvDjzDgDb[93m[1ms[0mjzRvjfNNWWCSJFwrHCFbrCJWJHCSC
+	 Gh[93m[1ms[0mRBztDBgzRPstgzBLZcqmlcLMMlmdLQBZT
+CWfvvh... | jsNctM... | jcwjnt...
+> common char R with score 44 has been found in:
+	 CWfvvhfWrlllSS[93m[1mR[0mrdQrQDQGQdTRr
+	 jsNctMZLmMZLMmmmbbNZswZNqBTHPHzBMHHTMGqB[93m[1mR[0mMRPDQqP
+	 jcwjntLngngplgFhg[93m[1mR[0mvJVp
+vchzqz... | pBTHpd... | prsBHf...
+> common char R with score 44 has been found in:
+	 vchzqzwlhz[93m[1mR[0mqzVZQwqtVPZLnLLbDnDFnbGLnDbPLDGWD
+	 pBTHpdpHsrNBBsgdrdCpCpCg[93m[1mR[0mFCMFDLFWWnFWLRRGWbDFGSF
+	 prsBHfggjpjjc[93m[1mR[0mQlqvtw
+VDwzLQ... | tsjFds... | qBBFBZ...
+> common char m with score 13 has been found in:
+	 VDwzLQrDDWrrwWbJrVJwVrVQfMfSCNPMfSlMlPcM[93m[1mm[0mThChf
+	 tsjFdsRsgtR[93m[1mm[0mGZHpHRgBClSlGSClcPhGCfPlllll
+	 qBBFBZZp[93m[1mm[0mgdFHdstjFJbzVwJVqJWWbrvWJDL
+mgjZmr... | nPhnLv... | SnnLnt...
+> common char t with score 20 has been found in:
+	 mgjZmrqmdsmG[93m[1mt[0mDplglJgRVVc
+	 nPhnLvnHL[93m[1mt[0mLnWzzcNwwcchVJRflhpc
+	 SnnLn[93m[1mt[0mLWZsMqZrSZ
+jcrNfn... | zPPHtM... | wHzrWV...
+> common char r with score 18 has been found in:
+	 jc[93m[1mr[0mNfnrNLNNqFgbDfCSgSQbS
+	 zPPHtM[93m[1mr[0mGGptvTWPVvzvHRgQsbDsSRRCCQbtJsJDS
+	 wHz[93m[1mr[0mWVzPwThGGwMHzTGGPGwhdlZnBndZLljNjBcLdZdNBN
+qNPhNq... | ZZbZTZ... | SGBRTT...
+> common char B with score 28 has been found in:
+	 qNPhNqdd[93m[1mB[0mNhqvPhFvllNgNBHCrrCQnjpCfPVJnnJQJCjJj
+	 ZZbZTZcmGWWMDWRSDn[93m[1mB[0mVQCjVDffJjnnVCJ
+	 SG[93m[1mB[0mRTTZGGcLSSWTScsmcMbGlhgwFqslhzqggghwhNvwwvw
+GCCPwp... | JDjFJf... | FlDflb...
+> common char v with score 22 has been found in:
+	 GCCPwpsBqNSsBPpSCrSshzQzLhT[93m[1mv[0mQhqTnhtTVQcT
+	 JDjFJfMJgWbWWlDJcn[93m[1mv[0mvhvtdLnjnzhjz
+	 FlDflbZfZgJgMgbmgZJfSpGC[93m[1mv[0mvrGrRCpCBrZRprw
+HwqhgF... | Bllbdf... | lJDlBf...
+> common char n with score 14 has been found in:
+	 HwqhgFGSMgPPCGQQQ[93m[1mn[0mvvcpjn
+	 BllbdfRBsBmsmZlBTmQCjT[93m[1mn[0mNWNCmNmvc
+	 lJDlBflDdbbRlLbfsbZBJtbRqrVFP[93m[1mn[0mwwwhVMHwVrgJwwrSwH
+LTvLtT... | lBgwwN... | nCMCwZ...
+> common char C with score 29 has been found in:
+	 LTvLtTFL[93m[1mC[0mddFTTthsbVVmHHcqVHmWRcmHL
+	 lBgwwNggwMwNVbjB[93m[1mC[0mQcCqCRB
+	 n[93m[1mC[0mMCwZGGNGJnGhtrzsdDDndtsF
+ZlZdJJ... | SfgFzf... | FfmrRv...
+> common char m with score 13 has been found in:
+	 ZlZdJJplLZBDpJjNJlGjQCL[93m[1mm[0mCQmTwVVCbQQbqWCT
+	 SfgFzftrnRzMnVbPPPQ[93m[1mm[0mPq
+	 Ff[93m[1mm[0mrRvgShchvFfghzRvgtvFBpJDpcGNGdBHJlpDDDJlDJZ
+LdNrLz... | tBZmBZ... | Mlfldw...
+> common char d with score 4 has been found in:
+	 L[93m[1md[0mNrLzjdWQnrDHsD
+	 tBZmBZtVZpl[93m[1md[0mVMPRnsRQsnnsHVbRHs
+	 Mlfl[93m[1md[0mwMBBFMZTSFTSqLqcvSJ
+nJqBlv... | MfVCVM... | CCQQtQ...
+> common char C with score 29 has been found in:
+	 nJqBlvvBjHhBcqqRrGPrTrGpB[93m[1mC[0mGzTG
+	 MfV[93m[1mC[0mVMLZVZtQCdtLMtQtQSSSTSzFRSRPFpFRGpdTFd
+	 [93m[1mC[0mCQQtQVgfbbQNggsNfQZZbHbcWmnhlhnvlnlHjJWvnhv
+SGmmGw... | ztFWcW... | QtzcJt...
+> common char J with score 36 has been found in:
+	 SGmmGwVwnmhbhnhwhhwbdMgNNgjmvMDr[93m[1mJ[0mTCgmBTBBj
+	 ztFWcWQQfcRzzRFllvjDjggjDDfBg[93m[1mJ[0mMBgC
+	 Qtzc[93m[1mJ[0mtFtqcFQRRWRRQWFzFGpVnVSGLLGZVGVqddbLqGL
+tBmdmQ... | TPVHTV... | hssVWn...
+> common char n with score 14 has been found in:
+	 tBmdmQtjMMqDLqBtttQMjDdwwgwccMMbffllgz[93m[1mn[0mcwfFflF
+	 TPVHTVsRsJVHVrVvHvrRhVJbfCgFbzwbCGgFlwgcCwb[93m[1mn[0m
+	 hssVW[93m[1mn[0mRrTVZSSZZqjLddWtLBddqtQL
+WhhtGZ... | rHnpFH... | HVcTzF...
+> common char D with score 30 has been found in:
+	 WhhtGZtZGQZmvCfCwtvhqgbfd[93m[1mD[0mJdfjlSDlSlBBJDSg
+	 rHnpFHn[93m[1mD[0mrdBggJngnL
+	 HVcTzFPNzTpPPVrzmtwtvvvmNQw[93m[1mD[0mQvWw
+dStBwS... | RLZbCW... | ZmLHJq...
+> common char z with score 26 has been found in:
+	 dStBwStGGBrNnBdrSSM[93m[1mz[0mvjhgFcvvDcnnvPDn
+	 RLZbCWWJbHRsTHspZWLcDWcPPh[93m[1mz[0mczfjgPjjvjz
+	 ZmLHJqJsLJJHLRsmmmGS[93m[1mz[0mtQdQzmNBrBN
+JrmRVd... | DDhhtt... | bSbPth...
+> common char Q with score 43 has been found in:
+	 JrmRVdvcmvvmvvRTdBVVfjF[93m[1mQ[0mLwjqLFLWFMqwcFjz
+	 DDhhttDHHHbHSnsDbHqMqzw[93m[1mQ[0mLLFwLsjjLLQf
+	 bSbPthtgG[93m[1mQ[0mPNPHnSDChCRJZZJRCZdCrCBZZZZvJd
+rqvVqN... | jsFRFD... | dCccQc...
+> common char M with score 39 has been found in:
+	 rqvVqNJpVVNwnqqTwth[93m[1mM[0mMq
+	 jsFRFDQRLQDQmsPRmQsmcQF[93m[1mM[0mzGhwBGBhTzTTzHnRhnhBhRwz
+	 dCccQcQsFCmCQfbJbvZ[93m[1mM[0mNZfJrJll
+TGjrrT... | NwWqqh... | CSSwNN...
+> common char C with score 29 has been found in:
+	 TGjrrTRLHvrQrFD[93m[1mC[0mrmzzVm
+	 NwWqqhndWtzDQh[93m[1mC[0mzVCsh
+	 [93m[1mC[0mSSwNNwqgBBBBbGGvLTTvb
+fRBRBH... | DZshMs... | QPrJDD...
+> common char Z with score 52 has been found in:
+	 fRBRBHCVRRzcCd[93m[1mZ[0mHvRvZVCZLNjtwtNwNTtLjNtTpTNttfS
+	 D[93m[1mZ[0mshMssZmTMjwjSLtw
+	 QPrJDDJsPDFmFrFDscHHRzrcvccC[93m[1mZ[0mRVzrR
+zgqzLL... | RnJmNR... | JDfRcr...
+> common char r with score 18 has been found in:
+	 zgqzLLvlvdgpg[93m[1mr[0mWpWW
+	 RnJmNRncnScFmZSSc[93m[1mr[0mJQQdbpGdHbWHtPHpBHsdFdsW
+	 JDfRc[93m[1mr[0mSnmDSJcNfrNZNjvlwjhllhMzlDqMqMvh
+fDLzSM... | pmTNpV... | dTwpdd...
+> common char N with score 40 has been found in:
+	 fDLzSMLhhtDWMvtjCRRZjCHHJjChH[93m[1mN[0m
+	 pmT[93m[1mN[0mpVwPNbPwPBFRqRJqjCnFjZFV
+	 dTwpddsTbgbQBssprsgtvgc[93m[1mN[0mLzWMctfSgcfWLt
+fbBsBT... | MpsCCM... | FtjdCF...
+> common char s with score 19 has been found in:
+	 fbB[93m[1ms[0mBTsNDhGBGZcLLLJJQffQLQ
+	 Mp[93m[1ms[0mCCMHClsHQqZcQWLqR
+	 FtjdCFzVljFl[93m[1ms[0mlVCpFrFjPhggBGDgNSTTgbGNmbGTr
+HqTfms... | JjjcQQ... | nQnSbD...
+> common char p with score 16 has been found in:
+	 HqTfmsCFmPlGHddNVG[93m[1mp[0mLhz
+	 JjjcQQJgjZvZZzzwg[93m[1mp[0mNVGwLGgV
+	 nQnSbDDRbSQJQQ[93m[1mp[0mRZtZcZZsPPrFfWCPFWlrFsFPqmqFt
+TgTDDr... | WHffcH... | cBpPpl...
+> common char M with score 39 has been found in:
+	 TgTDDrCmqJDGLrhqLmLGqDQRFtttj[93m[1mM[0mbQZJjtdtjFdsdF
+	 WHffcHWnlvvcSSWzPVvHpWWVRbFdQQtQnjwZF[93m[1mM[0mwZtwddsZbd
+	 cBpPplVVPfvVGBDLGCBqmmL[93m[1mM[0m
+dlMMmn... | tPhRBR... | TSPhBV...
+> common char z with score 26 has been found in:
+	 dlMMmnmjvCCjJrrvMdgHcbcFbqFb[93m[1mz[0mQrFbGzb
+	 tPhRBRZPtZRshT[93m[1mz[0mRsNShRZNGDfGgFFbFQqbGHDHbqfGD
+	 TSPhBVsTwRBTpVtRZpVhZLJjW[93m[1mz[0mLjJlJlJvmwWWzwWn
+WcvLLg... | QVmlPQ... | lrSCZZ...
+> common char P with score 42 has been found in:
+	 WcvLLgLcczLTDtccbLcgzMMf[93m[1mP[0msGwRPjwfMwHMfMvMp
+	 QVml[93m[1mP[0mQCdJlJJJlFJJJnPQQhlwwMMMnMwNMpwMGwwfswwGMsR
+	 lrSCZZVFh[93m[1mP[0mSZgzgWttWBcc
+bwbbZL... | SSnpHn... | PPscHH...
+> common char T with score 46 has been found in:
+	 bwbbZLlbwlJhBzFCgt[93m[1mT[0mGRGQldQRmQW
+	 SSnpHnPHqpmggCWgd[93m[1mT[0m
+	 PPscHH[93m[1mT[0mfcsPSDVfVssjvwFJLBJFjFJJZFJLNLwrL
+nLgDSH... | BstQsv... | brtCrt...
+> common char h with score 8 has been found in:
+	 nLgDSHgwRgGnHjjNfTR[93m[1mh[0mjPVpWV
+	 BstQsv[93m[1mh[0mQZQQbMvCvMPVNWpPcTjfmPmmW
+	 brtCrtvtzr[93m[1mh[0mdSDJDwh
+dTQTwg... | WLLtnt... | JsPhFt...
+> common char b with score 2 has been found in:
+	 dTQTwgmZQ[93m[1mb[0mDzzMQCCl
+	 WLLtntFnfnRH[93m[1mb[0mttnSRRzSMVGDDMGzVlV
+	 JsPhFtf[93m[1mb[0mLWnsLPLqgdJcjmcwTwjcdw
+wMwMbM... | TnmGGm... | qnHGnV...
+> common char N with score 40 has been found in:
+	 wMwMbMRRBBMLPBlhLRQlhPcWzgJ[93m[1mN[0mvJtzWNtJptpgjJgpBj
+	 TnmGGmVnFF[93m[1mN[0mSZsnZqFsWzWjrTJzvzWvWgWtTWz
+	 qnHGnVSsqZCddnGCGCS[93m[1mN[0mdDbLQPcLLQlDhPRMhb
+NGsBTB... | gjZWJW... | zZpSDD...
+> common char S with score 45 has been found in:
+	 NGsBTBlqsvfQBQqsTLTFltRMmRwmmHmFtP[93m[1mS[0mRhM
+	 gjZWJWCZdDpjggDdgnpWdZZJtFwFRFFRMwbbmRPt[93m[1mS[0mhnwRbtt
+	 zZp[93m[1mS[0mDDgpzcDddjVWggJsQGrfQvrQcTGTGrTrqr
+hpJchh... | bmgddg... | qqbmdZ...
+> common char P with score 42 has been found in:
+	 hpJchhFWMpRDWHWcDGnCGrnGnw[93m[1mP[0mTwpQnCt
+	 bmgddgmlmjjbfddgmmmNvGQLrtfTwrTtLtGTLQVQQ[93m[1mP[0m
+	 qqbmdZgzZbvg[93m[1mP[0mDccHcZPhWWH
+VVrdQZ... | bQwnHw... | pHqqPn...
+> common char Q with score 43 has been found in:
+	 VVrd[93m[1mQ[0mZZrZSZFgQTTTzggrVZVMlfBBfvcMBCBslMhBvsMBSff
+	 b[93m[1mQ[0mwnHwbNpwcsCwjMBw
+	 pHqqPnJHqpPNJFzqTz[93m[1mQ[0mWWDQQZq
+HgwTDf... | MnhtNZ... | rrhJMF...
+> common char L with score 38 has been found in:
+	 HgwTDfgBwBgcRHqRRjHqHTzQQClSzvlzPVSQ[93m[1mL[0mvbbPC
+	 MnhtNZNnJpWpGhMQbCCPVSP[93m[1mL[0mNmSPQQ
+	 rrhJMFJJZFJpHcjR[93m[1mL[0mFRfHjgj
+vGvGMB... | HnJQHV... | JSqJQV...
+> common char D with score 30 has been found in:
+	 vGvGMBlttBltvjdgbPsrs[93m[1mD[0mWdjPPP
+	 HnJQHVqNmQHmZs[93m[1mD[0mZPPrDWpgFps
+	 JSqJQVV[93m[1mD[0mqqVfJNfRffGSGMBwGTCCCTlBMSBl
+PsFZPf... | dcRdhS... | hhhcqC...
+> common char C with score 29 has been found in:
+	 PsFZPfGbDNbtQm[93m[1mC[0mCmCBBbmmL
+	 dcRdhSr[93m[1mC[0mqjThTRcTpLzHQzTmpmlgBz
+	 hhhcq[93m[1mC[0mvwhhVhfPNvsMstZtsZ
+VvGwBB... | NlTRdv... | LvWvPc...
+> common char v with score 22 has been found in:
+	 V[93m[1mv[0mGwBBwvZtGgfZCqShnFFjSstCMC
+	 NlTRd[93m[1mv[0mpDdTRNzdTHHnMssCnCnCqjSz
+	 L[93m[1mv[0mWvPcWLpGwBwVVgVc
+bVVmSr... | QnvqRG... | QWGvDp...
+> common char L with score 38 has been found in:
+	 bVVmSr[93m[1mL[0mmLSJzTZMSFTBdMj
+	 QnvqRGGDvWpQWGDpvsRZ[93m[1mL[0mBzTRjBTtjRTPtBF
+	 QWGvDpqcvpGWQpGngqGQGwp[93m[1mL[0mhJVNJcrbfrVbfbhHrmlVJHVV
+NGRGPZ... | gwRhjv... | rrmLrh...
+> common char R with score 44 has been found in:
+	 NG[93m[1mR[0mGPZWZpblGcJtfssSSsbffCs
+	 gw[93m[1mR[0mhjvrgjmwgnzvJJJtVCtHJqs
+	 rrmLrhwFFmmTMgF[93m[1mR[0mjNZWNpZlZLppQNcDWP
+qsHZsH... | mRDDzb... | PnfDbP...
+> common char p with score 16 has been found in:
+	 qsHZsHZrTBtZrHBNFCJGWrMc[93m[1mp[0mcddWGJWLG
+	 mRDDzbPVDVlVDgbgRRvmwCcWdGvJwGdd[93m[1mp[0mvLm
+	 PnfDbPbVzDbVfjnnlbzhVFss[93m[1mp[0mBSfFsssHQNTBpFqNQ
+gCmtbD... | zNZnsS... | nhdrBs...
+> common char T with score 46 has been found in:
+	 gCmtbDqPVVVqggCGq[93m[1mT[0mJjHMpMQfgMpMHQQpcM
+	 zNZnsSLzZzrlRh[93m[1mT[0mTJMHppjfHSpvp
+	 nhdrBsLlRRrd[93m[1mT[0mlsTVmCmGqDVFdtDPGwV
+FnqNfd... | blvVvb... | RWWvtv...
+> common char n with score 14 has been found in:
+	 F[93m[1mn[0mqNfdGfgzmPLGmj
+	 blvVvbsRwg[93m[1mn[0mzjCPcbT
+	 RWWvtvph[93m[1mn[0mZQZwMBNdHfNDBZZdq
+DMRhDh... | NVgVmt... | zwBztL...
+> common char P with score 42 has been found in:
+	 DMRhDhdvnjhn[93m[1mP[0mnvPMfdZSGTccGJFjGFFpFpFTbTpTW
+	 NVgVmtzVlLBmgztsBNmtgCmqFpJJFGGpGbrcGGsrcpbW[93m[1mP[0mr
+	 zwBztLBzllQ[93m[1mP[0mDZvfQZfRfHSR
+mFCgPz... | psSNnh... | hBpNLT...
+> common char h with score 8 has been found in:
+	 mFCgPzmqgtPPqMmFWzbMttcRGvRclvH[93m[1mh[0mWGGcZvclRfHh
+	 psSNn[93m[1mh[0mnLGnwZHZGv
+	 [93m[1mh[0mBpNLTNLBhsPmbCgBtPDbM
+JsbLLW... | dwgrVw... | gpGSjp...
+> common char C with score 29 has been found in:
+	 JsbLLWLJRfQFnccmQhtvvP[93m[1mC[0mP
+	 dwgrVwGpgVh[93m[1mC[0mrrhPDHtC
+	 gpGSjpVdVpVppjjVZBwd[93m[1mC[0mbFRWLzLMSRMbNzfzbWR
+DmMQMJ... | ZcLcgL... | GgFPqF...
+> common char G with score 33 has been found in:
+	 DmMQMJmnm[93m[1mG[0mwzGwwG
+	 ZcLcgLgcRsZSctHFWL[93m[1mG[0mfjjBwvbvBsvjpfhGb
+	 [93m[1mG[0mgFPqFtLRHLFSHLRRFRHHtMnJVNCQCrJCJCnMJDdnqDV
+tqdqFq... | GGwVcp... | nhbnbf...
+> common char V with score 48 has been found in:
+	 tqdqFqdsRd[93m[1mV[0mdtHMNdRZHTZLrHJgrlZQPJLgr
+	 GGw[93m[1mV[0mcpGznmhbWhwcVVgzTrDrDDLZlTLLZQrJ
+	 nhbnbfjcnfMfFN[93m[1mV[0mtBq
+QHmPNZ... | pDhjpV... | FRjrnR...
+> common char Z with score 52 has been found in:
+	 QHmPN[93m[1mZ[0mvfCLsSwJSm
+	 pDhjpVDFcRBpFFjjMnRcVhpFCzbzs[93m[1mZ[0mbSSCtwtLMSLZLLtLbs
+	 FRjrnRchnfHPrr[93m[1mZ[0mlHl
+bjjMbd... | mGzJsG... | qvzHqH...
+> common char g with score 7 has been found in:
+	 bjjMbdCh[93m[1mg[0mRDZthpQpRQnwRTprRwS
+	 mGzJsGsHzHGPvvvqvzGzSn[93m[1mg[0mlSJrrwQgnlQQSrlQl
+	 qvzHqHLHmH[93m[1mg[0mPsNBdCdZtVBtVVMBFbh
+CctrCw... | zsqRls... | GRgllb...
+Score of badges overall elf's group is 2780
