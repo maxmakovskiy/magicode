@@ -96,7 +96,11 @@ int fully_overlapped(int f1, int f2, int s1, int s2) {
 }
 
 int at_least_partially_overlapped(int f1, int f2, int s1, int s2) {
-  return  1;
+  int is_left_overlapped =  s2 >= f2 && s2 >= f1 && s1 <= f2 && s1 >= f1;
+  int is_right_overlapped = f2 >= s2 && f2 >= s1 && f1 <= s2 && f1 >= s1;
+  int is_fully_overlapped = fully_overlapped(f1, f2, s1, s2);
+  
+  return  is_left_overlapped || is_right_overlapped || is_fully_overlapped;
 }
 
 int decode_using(uint64_t input, int(*comparator)(int, int, int, int)) {
@@ -135,6 +139,7 @@ int main(int argc, char** argv) {
   int k;
   int next_jump = 0;
   int total = 0;
+  int somehow = 0;
   
   while(k = read(f_descr, buffer, DATA_STR_L)) {
     int clean_len = clean_line(buffer, DATA_STR_L);
@@ -142,13 +147,17 @@ int main(int argc, char** argv) {
     print_buffer(buffer, clean_len);
     int r = process_line(buffer, clean_len);
     printf("code: 0x%08x\n", r);
-    int overlapped = decode_using(r, fully_overlapped);
-    printf("Is it fully overlapped %s\n", (overlapped ? "yes" : "no"));
+    int f_overlapped = decode_using(r, fully_overlapped);
+    int s_overlapped = decode_using(r, at_least_partially_overlapped);
+    printf("Is it fully overlapped %s\n", (f_overlapped ? "yes" : "no"));
+    printf("Is it somehow overlapped %s\n", (s_overlapped ? "yes" : "no"));
     lseek(f_descr, next_jump, SEEK_SET);
-    total += overlapped;
+    total += f_overlapped;
+    somehow += s_overlapped;
   }
 
   printf("Fully overlapped in total %d\n", total);
+  printf("Weakly overlapped in total %d\n", somehow);
   close(f_descr);
   
   return 0;
