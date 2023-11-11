@@ -91,6 +91,29 @@ int process_line(const char* line, int length) {
 }
 
 
+int fully_overlapped(int f1, int f2, int s1, int s2) {
+  return (s2 >= f2 && s1 <= f1) || (f2 >= s2 && f1 <= s1); 
+}
+
+int at_least_partially_overlapped(int f1, int f2, int s1, int s2) {
+  return  1;
+}
+
+int decode_using(uint64_t input, int(*comparator)(int, int, int, int)) {
+  // 0x0829084f
+  // >> for 3 * 8 = 24 bits - 6 bytes
+  // 0x0'000000'8 
+  // >> for 2 * 8 = 16 bites - 4 bytes
+  // 0x
+  int f1 = (input & 0xff000000) >> (3 * sizeof(uint64_t));
+  int f2 = (input & 0x00ff0000) >> (2 * sizeof(uint64_t));
+  int s1 = (input & 0x0000ff00) >> (1 * sizeof(uint64_t));
+  int s2 =  input & 0x000000ff;
+
+  return comparator(f1, f2, s1, s2);
+}
+
+
 void print_buffer(const char* p, int len) {
   int i;
   for (i = 0; i < len; i++) {
@@ -111,18 +134,21 @@ int main(int argc, char** argv) {
     
   int k;
   int next_jump = 0;
-
+  int total = 0;
+  
   while(k = read(f_descr, buffer, DATA_STR_L)) {
     int clean_len = clean_line(buffer, DATA_STR_L);
     next_jump += clean_len;
     print_buffer(buffer, clean_len);
     int r = process_line(buffer, clean_len);
-    printf("0x%08x\n", r);
+    printf("code: 0x%08x\n", r);
+    int overlapped = decode_using(r, fully_overlapped);
+    printf("Is it fully overlapped %s\n", (overlapped ? "yes" : "no"));
     lseek(f_descr, next_jump, SEEK_SET);
-
+    total += overlapped;
   }
 
-  
+  printf("Fully overlapped in total %d\n", total);
   close(f_descr);
   
   return 0;
