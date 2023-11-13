@@ -46,6 +46,18 @@ void move(Stack* source, Stack* dest, size_t amount) {
   }
 }
 
+void move2(Stack* source, Stack* dest, size_t amount) {
+  size_t fitted = MIN(CRATE_CAP-dest->len, amount);
+  size_t cur_src = source->len;
+  size_t cur_dest = dest->len;
+
+  for (size_t i = 0; i < fitted; i++) {
+    dest->crates[i+cur_dest] = source->crates[cur_src-amount+i];
+    source->len--;
+    dest->len++; 
+  }
+}
+
 /*
 
                 [B]     [L]     [S]
@@ -269,7 +281,8 @@ uint32_t build_MoveCmd(Token** tokens, MoveCmd* command) {
 }
 
 void execute_cmd(MoveCmd* cmd) {
-  move(cmd->from, cmd->to, cmd->how_much);
+  // move(cmd->from, cmd->to, cmd->how_much);
+  move2(cmd->from, cmd->to, cmd->how_much);
 }
 
 void create_stacks() {
@@ -383,7 +396,7 @@ int main(void) {
 
   
 
-    return 0;
+  return 0;
 }
 
 
