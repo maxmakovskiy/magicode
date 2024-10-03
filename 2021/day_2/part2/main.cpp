@@ -59,8 +59,8 @@ std::pair<int, cmd> parse(const std::string& raw) {
 
 
 int main() {
-    const std::string filename {"test_data.txt"};
-//    const std::string filename {"full_data.txt"};
+//    const std::string filename {"test_data.txt"};
+    const std::string filename {"full_data.txt"};
     std::ifstream file {filename};
 
     if (!file.is_open()) {
@@ -68,6 +68,7 @@ int main() {
         return -1;
     }
 
+    int aim = 0;
     int depth = 0;
     int position = 0;
 
@@ -77,13 +78,15 @@ int main() {
         auto r = parse(buffer);
         if (r.second == forward) {
             position += r.first;
+            depth += (r.first * aim);
         } else if (r.second == down) {
-            depth += r.first;
+            aim += r.first;
         } else {
-            depth -= r.first;
+            aim -= r.first;
         }
     }
 
+    std::cout << "AIM: " << aim << "\n";
     std::cout << "DEPTH: " << depth << "\n";
     std::cout << "POSITION: " << position << "\n";
     std::cout << "DEPTH x POSITION = " << (depth*position) << std::endl;
