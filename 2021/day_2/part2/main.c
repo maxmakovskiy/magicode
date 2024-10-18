@@ -1,13 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define SAMPLE_LEN 5
+#define SAMPLE_LEN 24
+
+
+static int ones[SAMPLE_LEN];
+static int zeros[SAMPLE_LEN];
 
 
 void 
 treat_line(
-  const char* line, int line_len,
-  int* ones, int* zeros
+  const char* line, int line_len
 ) {
   for (int i = 0; i < line_len; i++) {
     const int ASCII_0 = 48;
@@ -19,11 +22,7 @@ treat_line(
   }
 }
 
-
-int 
-most_common_stats(
-  const int* ones, const int* zeros
-) {
+int compute_most_common() {
   int result = 0;
   
   for (int i = 0; i < SAMPLE_LEN; i++) {
@@ -38,10 +37,7 @@ most_common_stats(
 }
 
 
-int 
-least_common_stat(
-  const int* ones, const int* zeros
-) {
+int compute_least_common() {
   int result = 0;
   
   for (int i = 0; i < SAMPLE_LEN; i++) {
@@ -55,7 +51,6 @@ least_common_stat(
   return result;
 }
 
-
 int main(int argc, char** argv) {
   // if (argc < 2) {
   //   printf("You should pass the name of a file to open\n");
@@ -63,21 +58,20 @@ int main(int argc, char** argv) {
   // }
 
   // char* filename = argv[1];
-  char* filename = "data.txt";
+  // char* filename = "data.txt";
+  char* filename = "big_data.txt";
 
   FILE* file;
   file = fopen(filename, "r");
   printf("Opening file: %s ...\n", filename);
 
-  int ones_stat[SAMPLE_LEN] = {0, 0, 0, 0, 0};
-  int zeros_stat[SAMPLE_LEN] = {0, 0, 0, 0, 0};
 
   char line_buf[128];
   int iter_buf = 0;
   int ch;
   while ((ch = fgetc(file)) != EOF) {
     if ((char)ch == '\n') {
-      treat_line(line_buf, iter_buf, ones_stat, zeros_stat);
+      treat_line(line_buf, iter_buf);
       iter_buf = 0;
     } else {
       line_buf[iter_buf] = (char)ch;
@@ -87,11 +81,11 @@ int main(int argc, char** argv) {
 
   fclose(file);
 
-  int most = most_common_stats(ones_stat, zeros_stat);
-  int least = least_common_stat(ones_stat, zeros_stat);
+  int most = compute_most_common();
+  int least = compute_least_common();
   int result = most * least;
 
   printf("result = %d\n", result);
 
-    return 0;
+  return 0;
 }
