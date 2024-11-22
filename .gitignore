@@ -479,6 +479,7 @@ CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
 cmake-build-debug
+cmake-build-*
 
 # idea file
 .idea
