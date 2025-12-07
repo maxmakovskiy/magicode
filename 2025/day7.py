@@ -50,13 +50,17 @@ def move_beam(beam_pos: coord, splitters: SparseMatrix, net_dimensions: tuple[in
 
     for _ in range(beam_row, n_rows):
         beam_row += 1
-        if splitters.get(beam_row, beam_col) > 0:
-            val = splitters.get(beam_row, beam_col)
-            splitters.set(beam_row, beam_col, val + 1)
 
-            return ((1 if val == 1 else 0)
-                    + move_beam((beam_row, beam_col + 1), splitters, net_dimensions)
-                    + move_beam((beam_row, beam_col - 1), splitters, net_dimensions))
+        val = splitters.get(beam_row, beam_col)
+
+        if val == 1:
+            splitters.set(beam_row, beam_col, val + 1)
+            return (1
+                + move_beam((beam_row, beam_col + 1), splitters, net_dimensions)
+                + move_beam((beam_row, beam_col - 1), splitters, net_dimensions))
+
+        if val > 1:
+            return 0
 
     return 0
 
@@ -82,8 +86,8 @@ def main():
     )
 
     with open("day7.txt", "r") as f:
-        lines = sample.splitlines()
-        # lines = f.read().splitlines()
+        # lines = sample.splitlines()
+        lines = f.read().splitlines()
 
         net_dimensions = (len(lines), len(lines[0]))
 
