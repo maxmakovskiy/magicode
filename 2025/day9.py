@@ -2,7 +2,7 @@ import itertools as iter
 
 PointType = tuple[int, int]
 VectorType = tuple[PointType, PointType]
-
+ConvexSpan = list[tuple[PointType, PointType]]
 
 def compute_rectangle(v: VectorType) -> int:
     p1, p2 = v
@@ -35,6 +35,8 @@ def main():
         vertices: list[PointType] = [(int(l[0]), int(l[1])) for l in lines]
 
         pairs: list[VectorType] = list(iter.combinations(vertices, 2))
+
+        span = list(iter.pairwise(vertices)) + [(vertices[-1], vertices[0])]
 
         areas = [(i, area) for i, area in enumerate(map(compute_rectangle, pairs))]
 
