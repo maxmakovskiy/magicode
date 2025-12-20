@@ -1,30 +1,30 @@
-visited: dict[str, bool] = dict()
-out_touched_counter = 0
-
-
-def explore(vertex, adjacency_list):
-    global out_touched_counter
-
-    # visited[vertex] = True
+def explore(vertex, adjacency_list, visited, counters):
+    visited[vertex] = True
 
     for v in adjacency_list[vertex]:
         if v == "out":
-            out_touched_counter += 1
+            return 1
+        elif not visited[v]:
+            counters[v] += explore(v, adjacency_list, visited, counters)
 
-        # if not visited[v]:
-        explore(v, adjacency_list)
+    counters[vertex] = sum([counters[v] for v in adjacency_list[vertex]])
+
+    return counters[vertex]
 
 
-def dfs(adjacency_list):
-    global visited
+def dfs(adjacency_list, label):
+    visited: dict[str, bool] = dict()
+    counters: dict[str, int] = dict()
 
-    # for vertex in adjacency_list.keys():
-    #     visited[vertex] = False
+    for vertex in adjacency_list.keys():
+        visited[vertex] = False
+        counters[vertex] = 0
 
-    label = "you"
-
+    s = 0
     for v in adjacency_list[label]:
-        explore(v, adjacency_list)
+        s += explore(v, adjacency_list, visited, counters)
+
+    return s
 
 
 def main():
@@ -51,8 +51,7 @@ def main():
 
         adjacency_list["out"] = []
 
-        dfs(adjacency_list)
-        print(out_touched_counter)
+        print(dfs(adjacency_list, "you"))
 
 
 
