@@ -82,6 +82,11 @@ def part_2():
 
     adjacency_list["out"] = []
 
+    # NOTE:
+    # Idea for the 2nd part is quite simple:
+    # - we suppose that svr and out are connected
+    # - we just need to find all the possible paths between svr-fft, fft-dac and dac-out
+    #   piece-wise instead of searching svr-out
     return (
               dfs(adjacency_list, label="svr", target="fft")
             * dfs(adjacency_list, label="fft", target="dac")
