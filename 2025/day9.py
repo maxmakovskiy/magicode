@@ -1,6 +1,7 @@
 from itertools import combinations, pairwise, repeat
 from functools import partial, Placeholder
 from math import comb
+from concurrent import futures
 
 Point = tuple[int, int]
 
@@ -80,7 +81,7 @@ def flood_fill(p: Point, edges: list[tuple[Point, Point]]) -> list[Point]:
     return polygon
 
 
-def is_enclosed(corners: tuple[Point, Point], polygon: list[Point]) -> bool:
+def is_enclosed(corners: tuple[Point, Point], polygon: list[Point]) -> (bool, tuple[Point, Point]):
     x1, x2 = min(corners[0][0], corners[1][0]), max(corners[0][0], corners[1][0])
     y1, y2 = min(corners[0][1], corners[1][1]), max(corners[0][1], corners[1][1])
 
@@ -97,9 +98,9 @@ def is_enclosed(corners: tuple[Point, Point], polygon: list[Point]) -> bool:
     for b in borders:
         for p in b:
             if p not in polygon:
-                return False
+                return False, corners
 
-    return True
+    return True, corners
 
 
 def point_on_segment(px, py, x1, y1, x2, y2):
@@ -178,12 +179,12 @@ def part_2(source: str) -> int:
     n_combs = comb(len(vertices), 2)
     print(f"{n_combs} pairs to process")
 
-    i = 1
-    for v1, v2 in combinations(vertices, 2):
-        print(f"checking {i} / {n_combs}")
-        if is_enclosed((v1, v2), polygon_points):
-            pairs.append((v1, v2))
-        i += 1
+    enclosed_func =  partial(is_enclosed, Placeholder, polygon_points)
+
+    with futures.ProcessPoolExecutor() as pool:
+        for inside, corners in pool.map(enclosed_func, combinations(vertices, 2)):
+            if inside:
+                pairs.append(corners)
 
     print(f"filtering enclosed corners done. {len(pairs)} are correct")
 
@@ -196,8 +197,6 @@ def part_2(source: str) -> int:
     ))
 
     print("uncompressing coordinates done")
-
-    # not the right answer: 4591195600 - too high
 
     areas = list(map(compute_rectangle, pairs))
     areas.sort(reverse=True)
