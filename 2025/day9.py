@@ -1,20 +1,27 @@
-import itertools as iter
+from itertools import combinations
 
 PointType = tuple[int, int]
-VectorType = tuple[PointType, PointType]
-ConvexSpan = list[tuple[PointType, PointType]]
 
-def compute_rectangle(v: VectorType) -> int:
-    p1, p2 = v
+
+def compute_rectangle(pair: tuple[PointType, PointType]) -> int:
+    p1, p2 = pair
     max_x, min_x = max(p1[0], p2[0]), min(p1[0], p2[0])
     max_y, min_y = max(p1[1], p2[1]), min(p1[1], p2[1])
 
     return (max_x - min_x + 1) * (max_y - min_y + 1)
 
 
-def filter_straight(v: VectorType) -> bool:
-    p1, p2 = v
-    return p1[0] == p2[0] or p1[1] == p2[1]
+def part_1(source: str) -> int:
+    lines = [tuple(line.split(",")) for line in source.splitlines()]
+    vertices: list[PointType] = [(int(l[0]), int(l[1])) for l in lines]
+
+    pairs: list[tuple[PointType, PointType]] = list(combinations(vertices, 2))
+
+    areas = [(i, area) for i, area in enumerate(map(compute_rectangle, pairs))]
+
+    areas.sort(key=lambda x: x[1], reverse=True)
+
+    return areas[0][1]
 
 
 def main():
@@ -29,21 +36,11 @@ def main():
         "7,3"
     )
 
-    with open("day9.txt", "r") as f:
-        lines = [tuple(line.split(",")) for line in sample.splitlines()]
-        # lines = [tuple(line.split(",")) for line in f.read().splitlines()]
-        vertices: list[PointType] = [(int(l[0]), int(l[1])) for l in lines]
+    # file = open("day9.txt", "r")
+    # sample = file.read()
+    # file.close()
 
-        pairs: list[VectorType] = list(iter.combinations(vertices, 2))
-
-        span = list(iter.pairwise(vertices)) + [(vertices[-1], vertices[0])]
-
-        areas = [(i, area) for i, area in enumerate(map(compute_rectangle, pairs))]
-
-        areas.sort(key=lambda x: x[1], reverse=True)
-
-        # print(f"Coordinate: {pairs[areas[0][0]]}")
-        print(f"Part 1: {areas[0][1]}")
+    print(f"Part 1: {part_1(sample)}")
 
 
 if __name__ == "__main__":
