@@ -1,6 +1,13 @@
-from itertools import permutations
-from functools import reduce
+# /// script
+# requires-python = ">=3.14"
+# dependencies = [
+#   "z3-solver>=4.15.4.0",
+# ]
+# ///
 
+
+from itertools import permutations
+import z3
 
 
 class IndicatorLights:
@@ -17,9 +24,9 @@ class IndicatorLights:
         return "[" + "".join(map(lambda item: "#" if item == 1 else ".", self.lights)) + "]"
 
 
-def brut_force(ref_lights: str, button_schematics: list[tuple[int, ...]]) -> int:
+def brut_force(ref_lights: str, button_schematics: list[list[int]]) -> int:
     for i in range(1, len(ref_lights) + 1):
-        configs: list[list[tuple[int, ...]]] = list(permutations(button_schematics, i))
+        configs = list(permutations(button_schematics, i))
 
         for c in configs:
             work_lights = IndicatorLights(len(ref_lights))
@@ -33,54 +40,43 @@ def brut_force(ref_lights: str, button_schematics: list[tuple[int, ...]]) -> int
     return 0
 
 
-def compute_score(r: list[int], all_ranks_sum: int, max_schema_len: int) -> float:
-    return sum(r) / all_ranks_sum + len(r) / max_schema_len
+def solve_part2(joltage, button_schematics) -> int:
+    # For every row in the input
+    # This puzzle is linear programming problem
+    # and z3 is the solver (docs: https://ericpony.github.io/z3py-tutorial/guide-examples.htm)
 
+    opt = z3.Optimize()
 
-def rank_counters(counters: list[int]) -> list[int]:
-    ranks = {v:i for i,v in enumerate(sorted(set(counters)))}
-    return [ranks[v] for v in counters]
+    presses = [z3.Int(f"c_{i}") for i in range(len(button_schematics))]
 
+    # button could be pressed or not
+    for count in presses:
+        opt.add(count >= 0)
 
-def analyze_counters(counters: list[int], button_schematics: list[tuple[int, ...]]) -> int:
-    """
-    Choose best button schematics to apply
-    """
+    # Find out which buttons affect which joltage
+    # In other words:
+    # Let say joltage is {3,5,4,7}
+    # Buttons are:
+    # a = (3), b = (1,3), c = (2), d = (2,3), e = (0,2), f = (0,1)
+    # for example e and f are the only ones which affect joltage with position (index) 0
+    # so e + f = 3
+    # using same logic for other positions within joltage we get:
+    # b + f = 5
+    # c + d + e = 4
+    # a + b + d = 7
 
-    pos_ranks = rank_counters(counters)
+    for pos, jol in enumerate(joltage):
+        affects = [presses[idx] for idx, btn in enumerate(button_schematics) if pos in btn]
+        opt.add(z3.Sum(affects) == jol)
 
-    all_ranks_sum = reduce(lambda x, y: x+y, range(len(counters)))
-    max_schema_len = len(button_schematics[0])
-    scores = []
+    # minimize total presses
+    opt.minimize(z3.Sum(presses))
 
-    for i, schema in enumerate(button_schematics):
-        curr_ranks = []
-        for c in schema:
-            curr_ranks.append(pos_ranks[c])
-        scores.append((i, compute_score(curr_ranks, all_ranks_sum, max_schema_len)))
+    if opt.check() != z3.sat:
+        raise ValueError("No solution")
 
-    scores.sort(key=lambda item: item[1], reverse=True)
-
-    for sc in scores:
-        print(f"    {button_schematics[sc[0]]} : {sc[1]}")
-
-    return scores[0][0]
-
-
-def solve_part2(counters: list[int], button_schematics: list[tuple[int, ...]]) -> int:
-    button_schematics.sort(key=lambda item: len(item), reverse=True)
-
-    i = 1
-    while sum(counters) != 0 and not any(map(lambda x: x < 0, counters)):
-        idx_schema = analyze_counters(counters, button_schematics)
-        print(f"step {i}: schema: {button_schematics[idx_schema]}")
-        for s in button_schematics[idx_schema]:
-            counters[s] -= 1
-        print(f"step {i}: counters: {counters}")
-        print()
-        i += 1
-
-    return i
+    model = opt.model()
+    return sum(model[c].as_long() for c in presses)
 
 
 def main():
@@ -91,7 +87,7 @@ def main():
     )
 
     indicator_lights: list[str] = []
-    button_schematics: list[list[tuple[int,...]]] = []
+    button_schematics: list[list[list[int]]] = []
     counters: list[list[int]] = []
 
     # f = open("day10.txt", "r")
@@ -101,7 +97,7 @@ def main():
     for line in sample.splitlines():
         parts = line.split(" ")
         indicator_lights.append(parts[0])
-        button_schematics.append([tuple([int(x) for x in p if x.isdigit()]) for p in parts[1:-1]])
+        button_schematics.append([[int(x) for x in p if x.isdigit()] for p in parts[1:-1]])
         counters.append([int(x) for x in parts[-1][1:-1].split(",")])
 
     part1 = sum([
