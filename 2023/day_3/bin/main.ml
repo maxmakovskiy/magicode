@@ -50,17 +50,19 @@ let rec scan i line ~values ~symbols ~y : vertex list * symbol list  =
 
 let process_row row_idx row : vertex list * symbol list = scan 0 row ~values:[] ~symbols:[] ~y:row_idx 
 
-let coord_to_str v : string = String.concat "," (List.map (fun s -> string_of_int s) v)
+
+let is_adjacent (v: vertex) (s: symbol) =
+  List.exists (fun dx -> 
+  abs (dx - s.x) <= 1 && abs (v.y - s.y) <= 1 &&
+  not (dx = s.x && v.y = s.y)) v.x
 
 
-(* let is_reachable v ~vertices = 
-  match v.v with
-  | Symbol _ -> false
-  | Integer _ -> 
-    let i_row_before = v.y *)
+let is_reachable v ~symbols = List.exists (fun sym -> is_adjacent v sym) symbols
 
 
-let () =
+(* let coord_to_str v : string = String.concat "," (List.map (fun s -> string_of_int s) v) *)
+
+(* let () =
   let (values, symbols) = List.split (List.mapi process_row map_rows) in
   let str_vals = List.map 
     (fun p -> Printf.sprintf "(%d | x: %s, y: %d)" p.v (coord_to_str p.x) p.y) 
@@ -70,4 +72,25 @@ let () =
     (List.flatten symbols) in
   print_endline (String.concat "\n" str_vals);
   print_endline (String.concat "\n" str_syms)
+ *)
+
+let () =
+  let (values, symbols) = List.split (List.mapi process_row map_rows) in
+  let flat_vals = List.flatten values in
+  let flat_syms = List.flatten symbols in
+  List.filter (is_reachable ~symbols:flat_syms) flat_vals
+  |> List.map (fun point -> point.v)
+  |> List.fold_left (+) 0
+  |> Printf.printf "(Sample) Part 1 : %d\n"
+
+
+let () =
+  let rows = Day_3.File.read_lines "data.txt" in
+  let (values, symbols) = List.split (List.mapi process_row rows) in
+  let flat_vals = List.flatten values in
+  let flat_syms = List.flatten symbols in
+  List.filter (is_reachable ~symbols:flat_syms) flat_vals
+  |> List.map (fun point -> point.v)
+  |> List.fold_left (+) 0
+  |> Printf.printf "(Real) Part 1 : %d\n"
 
